@@ -1,6 +1,6 @@
 # Trabajo-Autonomo-2
 Juego en Python: Piedra, Papel o Tijera.
-Creé un juego simple de consola en Python, con el objetivo que pueda jugar Piedra, Papel o tijera contra la computadora. El objetivo es que el usuario elija una de las tres opciones y la computadora seleccione una de las tres aleatoriamente, luego el programa compara las elecciones, determina quien es el ganador o si es empate y pregunta si desea volver a jugar.
+Elaboré un juego simple de consola en Python, con el objetivo que pueda jugar Piedra, Papel o tijera contra la computadora. El objetivo es que el usuario elija una de las tres opciones y la computadora seleccione una de las tres aleatoriamente, luego el programa compara las elecciones, determina quien es el ganador o si es empate y pregunta si desea volver a jugar.
 Lenguaje de programación:
 El lenguaje que utilice fue python, la versión 3.13, ya que es el lenguaje que usted en clase nos enseño por ser el mas adecuado para aprender programación.
 Librerias utilizadas:

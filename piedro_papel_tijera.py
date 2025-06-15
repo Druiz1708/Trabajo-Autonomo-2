@@ -21,38 +21,42 @@ while True:
             print("¡Empate!")
         elif usuario == "piedra":
             if computadora == "tijera":
-                print("Usuario", usuario)
-                print("Computadora", computadora)
+                print("Usuario:", usuario)
+                print("Computadora:", computadora)
                 print("¡Felicidades! ¡Ganaste!")
             elif computadora == "papel": 
-                print("Usuario", usuario)
-                print("Computadora", computadora)
+                print("Usuario:", usuario)
+                print("Computadora:", computadora)
                 print("Perdiste, ¡Intentalo de nuevo!")   
         elif usuario == "papel":
             if computadora == "piedra": 
-               print("Usuario", usuario)
-               print("Computadora", computadora)
+               print("Usuario:", usuario)
+               print("Computadora:", computadora)
                print("Perdiste, ¡Intentalo de nuevo!")
             elif computadora == "tijera": 
-               print("Usuario", usuario)
-               print("Computadora", computadora)
+               print("Usuario:", usuario)
+               print("Computadora:", computadora)
                print("¡Felicidades! ¡Ganaste!")  
         elif usuario == "tijera":
             if computadora == "piedra": 
-               print("Usuario", usuario)
-               print("Computadora", computadora)
+               print("Usuario:", usuario)
+               print("Computadora:", computadora)
                print("¡Felicidades! ¡Ganaste!")
             elif computadora == "papel": 
-               print("Usuario", usuario)
-               print("Computadora", computadora)
-               print("Perdiste, ¡Intentalo de nuevo!") 
-    #Preguntar al usuario si quiere volver a jugar
-    usuario_reinicio= input("¿Quieres volver a jugar? si, no:").lower()
-    #Si el usuario elige que no, se termina el juego
-    if  usuario_reinicio == "no":
-         print("Gracias por jugar")
-         break
-    #Si el usuario elige que si, se reincinia el bucle 
-    elif usuario_reinicio == "si":
-         print("Jugar de nuevo")
-         continue
+               print("Usuario:", usuario)
+               print("Computadora:", computadora)
+               print("Perdiste, ¡Intentalo de nuevo!")
+        while True:
+         #Preguntar al usuario si quiere volver a jugar
+          usuario_reinicio= input("¿Quieres volver a jugar? si, no:").lower()
+         #Si el usuario elige que no, se termina el juego
+          if  usuario_reinicio == "si":
+           print("Jugar de nuevo")
+           break
+        #Si el usuario elige que si, se reincinia el bucle 
+          elif usuario_reinicio == "no":
+            print("Gracias por jugar")
+            exit ()
+          else: 
+             print("Opción no valida") 
+             continue

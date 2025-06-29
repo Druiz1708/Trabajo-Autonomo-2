@@ -2,20 +2,132 @@
 
 Juego en Python: Piedra, Papel o Tijera.
 
-Elabore un juego simple de consola en Python, con el objetivo que pueda jugar Piedra, Papel o tijera contra la computadora. El objetivo es que el usuario elija una de las tres opciones y la computadora seleccione una de las tres aleatoriamente, luego el programa compara las elecciones, determina quien es el ganador o si es empate y pregunta si desea volver a jugar.
+
+Realice un juego de consola desarrollado en Python, que incluye dos modos de juego:
+
+Modo 1: Jugador Vs Computadora
+
+Modo 2: Jugador Vs Jugador (Multijugador)
+
+Lo diseñe para que sea jugado desde la consola con controles simples
+
+
 Lenguaje de programación:
+
 El lenguaje que utilice fue python, la versión 3.13, ya que es el lenguaje que usted en clase nos enseño por ser el mas adecuado para aprender programación.
-Librerias utilizadas:
-La libreria que utilice fue random, la use para simular la decisión aleatoria de la computadora entre piedra, papel o tijera y que no tenga un patrón fijo. No necesite instalar la libreria ya que viene preinstalada en Python. 
-¿Cómo puede iniciar el juego?
-Una vez que haya guardado el archivo y este abierto en visual studio code, va a la derecha de la pantalla y selecciona "Run Python File" y el juego se ejecutara en la terminal.
+
+
+Requisitos: 
+
+Debe estar el Python 3.x instalado en tu ordenador 
+
+
+Estructura del codigo:
+
+
+1.Librerias utilizadas:
+
+Random: Utilice esta libreria para que la computadora elija aleatoriamente entre piedra, papel o tijera
+
+os: Utilice est alibreria para limpiar la pantalla de la consola según el sistema operativo
+
+getpass: Utilice esta libreria para que los jugadores ingresen sus elecciones de forma oculta en modo jugador 
+
+
+2. Modos de Juego
+
+   Modo 1: Contra la Computadora
+
+   El jugador escoge su jugada
+
+   La computadora escoge su jugada aleatoriamente
+
+   Se comparan las dos jugadas para determinar el resultado
+
+   Se actualizan los puntos y se pregunta si el jugador desea jugar de nuevo, volver al menu o salir del juego
+
+   Modo 2: Multijugador
+
+   Cada jugador ingresa su jugada en secreto (Oculta con getpass)
+
+   Se comparan las elecciones de ambos
+
+   Se publican los resultados
+
+   Se muestran las estadisticas y se pregunta si quieren seguir jugando, volver al menu o salir del juego
+
+
+Logica del juego
+
+El juego sigue las reglas clasicas:
+
+-Piedra vence Tijera
+
+-Tijera vence Papel
+
+-Papel vence Piedra 
+
+Se usa estructuras de condicionales como if, elif, else para determinar el resultado de cada jugada 
+
+
+¿Como ejecutar el juego?
+
+1. Abre tu terminal o consola de comandos en Python
+   
+2. Abre la carpeta donde esta guardado el archivo del juego
+
+3. Seleccion "Run Python File"
+
+4. El juego se ejecutara en la terminal
+
+
 ¿Cómo jugar?
-1.Cuando se ejecute el juego usted vera un mensaje como: "Escoge: piedra, papel o tijera".
-2.Escoge su opción y la escribe en la consola.
-3.El programa determinara quien es el ganador o si hubo un empate.
-4.El programa te preguntara: "¿Quieres volver a jugar? si, no".
-5. Escribe si si es que deseas volver a jugar o no para salir.
-![image](https://github.com/user-attachments/assets/f955dae4-5032-4aa4-86ea-5702310093e8)
+
+1. Ejecuta el programa en la terminal con python juego.py
+
+2. Le aparecera el menu principal con 3 opciones:
+   
+   1. Jugar contra la computadora
+      
+   3. Modo multijugador
+      
+   5. Salir del juego
+
+
+4. Cuando escoja el modo en el que desea jugar
+   
+   1.  Escribe tu jugada: piedra, papel o tijera
+      
+   3.  El contricante hara su jugada
+      
+   5.  Se mostrara quien gano o si es empate
+
+      
+6. Al final de cada ronda, se preguntara:
+   
+   1. Si: para volver a jugar
+      
+   3. No: Para salir completamente del juego
+      
+   5. Menu: Para regresar al menu principal
+      
+8. Si ingresa Una palabra distinta a las dichas, el sistema lo inidcara y te volvera a preguntar que opcion escoges
+
+
+Creditos:
+
+El proyecto presente fue desarrollado como parte del trabajo final para la materia de Logica de Programacion
+
+
+Notas:
+
+-El programa esta en español
+
+-Incluye validacion de entradas para evitar errores
+
+-Opcion menu permite regresar al menu principal sin salirse completamente del juego
+   
+
 
 
 

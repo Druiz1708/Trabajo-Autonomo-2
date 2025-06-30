@@ -142,41 +142,41 @@ while True:
 
             # Evaluación de las jugadas
             if jugada1 == jugada2:
-                print("Usuario:", jugada1)
-                print("Usuario:", jugada2)
+                print("Jugador 1:", jugada1)
+                print("Jugador 2:", jugada2)
                 print("¡Empate!")
                 empates += 1
             elif jugada1 == "piedra":
                 if jugada2 == "tijera":
-                    print("Usuario:", jugada1)
-                    print("Usuario:", jugada2)
+                    print("Jugador 1:", jugada1)
+                    print("Jugador 2:", jugada2)
                     print(f"¡{jugador1} gana esta ronda!")
                     puntos1 += 1
                 elif jugada2 == "papel":
-                    print("Usuario:", jugada1)
-                    print("Usuario:", jugada2)
+                    print("Jugador 1:", jugada1)
+                    print("Jugador 2:", jugada2)
                     print(f"¡{jugador2} gana esta ronda!")
                     puntos2 += 1
             elif jugada1 == "papel":
                 if jugada2 == "piedra":
-                    print("Usuario:", jugada1)
-                    print("Usuario:", jugada2)
+                    print("Jugador 1:", jugada1)
+                    print("Jugador 2:", jugada2)
                     print(f"¡{jugador1} gana esta ronda!")
                     puntos1 += 1
                 elif jugada2 == "tijera":
-                    print("Usuario:", jugada1)
-                    print("Usuario:", jugada2)
+                    print("Jugador 1:", jugada1)
+                    print("Jugador 2:", jugada2)
                     print(f"¡{jugador2} gana esta ronda!")
                     puntos2 += 1
             elif jugada1 == "tijera":
                 if jugada2 == "papel":
-                    print("Usuario:", jugada1)
-                    print("Usuario:", jugada2)
+                    print("Jugador 1:", jugada1)
+                    print("Jugador 2:", jugada2)
                     print(f"¡{jugador1} gana esta ronda!")
                     puntos1 += 1
                 elif jugada2 == "piedra":
-                    print("Usuario:", jugada1)
-                    print("Usuario:", jugada2)
+                    print("Jugador 1:", jugada1)
+                    print("Jugador 2:", jugada2)
                     print(f"¡{jugador2} gana esta ronda!")
                     puntos2 += 1
 

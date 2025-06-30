@@ -128,6 +128,19 @@ Notas:
 -Opcion menu permite regresar al menu principal sin salirse completamente del juego
    
 
+![image](https://github.com/user-attachments/assets/005c9f8d-33ec-45c0-b0ab-dc11225a75ff)
+
+![image](https://github.com/user-attachments/assets/0e4bf419-2894-4e0a-b7c6-1c4faa00d47c)
+
+![image](https://github.com/user-attachments/assets/6d79d8ab-aa05-4ec0-8198-57b393c94705)
+
+![image](https://github.com/user-attachments/assets/335a3769-4895-4f7c-a781-4dfa4862e9d6)
+
+![image](https://github.com/user-attachments/assets/a0d4393a-e040-4cad-bfb4-a7eb45094397)
+
+
+
+
 
 
 

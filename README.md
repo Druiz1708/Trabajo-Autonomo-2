@@ -111,3 +111,19 @@ Notas:
 -Incluye validacion de entradas para evitar errores
 
 -Opcion menu permite regresar al menu principal sin salirse completamente del juego
+
+![image](https://github.com/user-attachments/assets/4aaac935-da03-4e7b-9423-c97b883d1b88)
+
+![image](https://github.com/user-attachments/assets/b1391e32-e2e3-44b9-ba57-809f9a617766)
+
+![image](https://github.com/user-attachments/assets/dcf87a68-aa4c-419a-b0c4-d26ae466f8a6)
+
+![image](https://github.com/user-attachments/assets/d25c728e-0616-45f4-ac2a-bc60acaadf4e)
+
+![image](https://github.com/user-attachments/assets/ea53b9ca-2f65-4b84-a722-2b7ff75b331a)
+
+
+
+
+
+
